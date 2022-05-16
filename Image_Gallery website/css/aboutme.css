@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.About_me{
+     width: 100vw;
+     height: auto;
+    /* background-color: yellow; */
+}
+.About_me .MyPhoto{
+    width: 300px;
+    height: 280px;
+    /* background-color:greenyellow; */
+    margin: auto;
+    border-radius: 40px;
+}
+.MyPhoto img{
+    width: 250px;
+    height: 250px;
+    margin-left:20px;
+    margin-top: 20px;
+    border-radius: 50px;
+}
+#p1{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: auto;
+    font-size: 20px;
+}
+@media screen and (max-width:430px) and (min-width:190px) {
+    #p1{
+        font-size: 14px;
+    }
+}
